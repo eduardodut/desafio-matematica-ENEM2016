@@ -1,0 +1,250 @@
+NU_INSCRICAO: Número de inscrição1 
+> Identificador de inscrição do candidato. será o indexador do dataset
+
+CO_UF_RESIDENCIA: Código da Unidade da Federação de residência
+> Será descartado
+
+SG_UF_RESIDENCIA: Sigla da Unidade da Federação de residência
+
+NU_IDADE: idade do candidato
+
+TP_SEXO: sexo do candidato
+{"M":0,
+"F":1}
+
+TP_COR_RACA: cor/raça do candidato 
+{0:"cor_raca_n_declarada",
+1:"cor_raca_branca",
+2:"cor_raca_preta",
+3:"cor_raca_parda",
+4:"cor_raca_amarela",
+5:"cor_raca_indigena",
+6:"cor_raca_n_declarada}
+
+
+TP_NACIONALIDADE: Nacionalidade
+> {0:"nacionalidade_n_informada",
+1:"nacionalidade_brasileira",
+2:"nacionalidade_brasileira_natu",
+3:"nacionalidade_estrang",
+4:"nacionalidade_brasileira_exterior"}
+
+TP_ST_CONCLUSAO: Situação de conclusão do Ensino Médio
+> {0:"conclusao_n_informada",
+1:"conclusao_concluido",
+2:"conclusao_cursando_em_2016",
+3:"conclusao_cursando_apos_2016",
+4:"conclusao_n_concluido_cursando"}
+
+TP_ANO_CONCLUIU: Ano de Conclusão do Ensino Médio
+> {0:"ano_conclusao_n_informado",
+1:"ano_conclusao_2015",
+2:"ano_conclusao_2014",
+3:"ano_conclusao_2013",
+4:"ano_conclusao_2012",
+5:"ano_conclusao_2011",
+6:"ano_conclusao_2010",
+7:"ano_conclusao_2009",
+8:"ano_conclusao_2008",
+9:"ano_conclusao_2007",
+10:"ano_conclusao_anterior_2007}
+
+
+TP_ESCOLA:Tipo de escola do Ensino Médio
+> {1:"tp_escola_n_informada",
+2:"tp_escola_publica",
+3:"tp_escola_privada",
+4:"tp_escola_exterior"}
+
+
+TP_ENSINO: Tipo de instituição que concluiu ou concluirá o Ensino Médio 
+> {1:"tp_ensino_n_informado",
+2:"tp_ensino_regular",
+3:"tp_ensino_privado",
+4:"tp_ensino_exterior"}
+
+IN_TREINEIRO: Indica se o inscrito fez a prova com intuito de apenas treinar seus conhecimentos
+> Não é necessário modificar a coluna. Nulos serão convertidos em 0.
+
+TP_DEPENDENCIA_ADM_ESC: Dependência administrativa (Escola)
+> {0:"tp_escola_n_informada",
+1:"tp_escola_federal",
+2:"tp_escola_estadual",
+3:"tp_escola_municipal",
+4:"tp_escola_privada"}
+
+IN_BAIXA_VISAO: Indicador de baixa visão5
+> Não é necessário modificar a coluna. Nulos serão convertidos em 0.
+
+IN_CEGUEIRA: Indicador de cegueira
+> Não é necessário modificar a coluna. Nulos serão convertidos em 0.
+
+IN_SURDEZ: Indicador de surdez
+> Não é necessário modificar a coluna. Nulos serão convertidos em 0.
+
+IN_DISLEXIA: Indicador de dislexia
+> Não é necessário modificar a coluna. Nulos serão convertidos em 0.
+
+IN_DISCALCULIA: Indicador de discalculia
+> Não é necessário modificar a coluna. Nulos serão convertidos em 0.
+
+IN_SABATISTA: Indicador de solicitação de prova aplicada em horário diferenciado para os guardadores dos sábados5
+> Não é necessário modificar a coluna. Nulos serão convertidos em 0.
+
+IN_GESTANTE: Indicador de gestante
+> Não é necessário modificar a coluna. Nulos serão convertidos em 0.
+
+IN_IDOSO: Indicador de inscrito idoso
+> Não é necessário modificar a coluna. Nulos serão convertidos em 0.
+
+TP_PRESENCA_CN: Presença na prova objetiva de Ciências da Natureza
+> {0:"tp_cn_faltou",
+1:"tp_cn_presente",
+2:"tp_cn_eliminado"}
+
+TP_PRESENCA_CH: Presença na prova objetiva de Ciências da Natureza
+> {0:"tp_ch_faltou",
+1:"tp_ch_presente",
+2:"tp_ch_eliminado"}
+
+TP_PRESENCA_LC: Presença na prova objetiva de Linguagens e Códigos
+> {0:"tp_lc_faltou",
+1:"tp_lc_presente",
+2:"tp_lc_eliminado"}
+
+CO_PROVA_CN: Código do tipo de prova de Ciências da Natureza
+> não é necessário alterar a coluna, serão construídas 9 variáveis dummy
+
+CO_PROVA_CH: Código do tipo de prova de Ciências Humanas
+> não é necessário alterar a coluna, serão construídas 9 variáveis dummy
+
+CO_PROVA_LC: Código do tipo de prova de Linguagens e Códigos
+> não é necessário alterar a coluna, serão construídas 9 variáveis dummy
+
+CO_PROVA_MT: Código do tipo de prova de Matemática
+> não é necessário alterar a coluna, serão construídas 9 variáveis dummy
+
+NU_NOTA_CN: Nota da prova de Ciências da Natureza
+
+NU_NOTA_CH: Nota da prova de Ciências Humanas
+
+NU_NOTA_LC: Nota da prova de Linguagens e Códigos
+
+TP_LINGUA: Língua Estrangeira 
+> Não é necessário modificar a coluna. Nulos serão convertidos em 0.
+
+TP_STATUS_REDACAO: Situação da redação do participante
+> {0:"tp_red_anulada",
+1:"tp_red_sem_problemas",
+2:"tp_red_anulaad",
+3:"tp_red_copia_txt_motivador",
+4:"tp_red_em_branco",
+5:"tp_red_fere_dir_hum",
+6:"tp_red_fuga",
+7:"tp_red_n_atend_tipo",
+8:"tp_red_txt_insu",
+9:"tp_red_parte_desconec"}
+
+NU_NOTA_COMP1: Nota da competência 1 - Demonstrar domínio da modalidade escrita formal da Língua Portuguesa.
+> variável será descartada
+
+NU_NOTA_COMP2: Nota da competência 2 - Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa.
+> variável será descartada
+
+NU_NOTA_COMP3: Nota da competência 3 - Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.
+> variável será descartada
+
+NU_NOTA_COMP4: Nota da competência 3 - Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.
+> variável será descartada
+
+NU_NOTA_COMP5: Nota da competência 5 - Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos.
+> variável será descartada
+
+NU_NOTA_REDACAO: Nota da prova de redação
+>
+
+Q001: Até que série seu pai, ou o homem responsável por você, estudou?
+>{A:"Q001_A",
+B:"Q001_B",
+C:"Q001_C",
+D:"Q001_D",
+E:"Q001_E",
+F:"Q001_F",
+G:"Q001_G",
+H:"Q001_H",
+null:"Q001_H"}
+
+Q002: Até que série sua mãe, ou a mulher responsável por você, estudou?
+> {A:"Q002_A",
+B:"Q002_B",
+C:"Q002_C",
+D:"Q002_D",
+E:"Q002_E",
+F:"Q002_F",
+G:"Q002_G",
+H:"Q002_H",
+null:"Q002_H"}
+
+Q006: Qual é a renda mensal de sua família? (Some a sua renda com a dos seus familiares.) 
+> {A:"Q006_A",
+B:"Q006_B",
+C:"Q006_C",
+D:"Q006_D",
+E:"Q006_E",
+F:"Q006_F",
+G:"Q006_G",
+H:"Q006_H",
+I:"Q006_I",
+J:"Q006_J",
+K:"Q006_K",
+L:"Q006_L",
+M:"Q006_M",
+N:"Q006_N",
+O:"Q006_O",
+P:"Q006_P",
+Q:"Q006_Q",
+null:?}
+
+Q024:Na sua residência tem computador?
+> {A:"Q024_A",
+B:"Q024_B",
+C:"Q024_C",
+D:"Q024_D",
+E:"Q024_E",
+null:?}
+
+Q025: Na sua residência tem acesso à Internet?
+> {A:"Q025_A",
+B:"Q025_B",
+null:"Q025_A"}
+
+Q026: Você exerce ou já exerceu atividade remunerada?
+> A:"Q026_A",
+B:"Q026_B",
+C:"Q026_C",
+null:"Q026_A"}
+
+Q027: Com que idade você começou a exercer uma atividade remunerada?
+>{A:"Q027_A",
+B:"Q027_B",
+C:"Q027_C",
+D:"Q027_D",
+E:"Q027_E",
+F:"Q027_F",
+G:"Q027_G",
+H:"Q027_H",
+I:"Q027_I",
+J:"Q027_J",
+K:"Q027_K",
+L:"Q027_L",
+M:"Q027_M",
+null:N:"Q027_N"}
+
+Q047: Em que tipo de escola você frequentou o Ensino Médio?
+> >{A:"Q047_A",
+B:"Q047_B",
+C:"Q047_C",
+D:"Q047_D",
+E:"Q047_E",
+null:F:"Q047_E"}
+
